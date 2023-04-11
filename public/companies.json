@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../src/assets/Logo/google-1-1 1.png",
+        "image": "../src/assets/logo/google.png",
         "name": "Google LLC",
         "jobCategories": [
             "Onsite",
@@ -20,7 +20,7 @@
     },
     {
         "id": 2,
-        "image": "../src/assets/Logo/netflix-4 1.png",
+        "image": "../src/assets/logo/netflix.png",
         "name": "Netflix",
         "jobCategories": [
             "Remote",
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "image": "../src/assets/Logo/tesla-9 1.png",
+        "image": "../src/assets/logo/tesla.png",
         "name": "Tesla",
         "jobCategories": [
             "Onsite",
@@ -58,7 +58,7 @@
     },
     {
         "id": 4,
-        "image": "../src/assets/Logo/Group 10021.png",
+        "image": "../src/assets/logo/airbnb.png",
         "name": "Airbnb",
         "jobCategories": [
             "Remote",
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "image": "../src/assets/Logo/Meta-Logo.png",
+        "image": "../src/assets/logo/meta.png",
         "name": "Meta",
         "jobCategories": [
             "Remote",
@@ -96,7 +96,7 @@
     },
     {
         "id": 6,
-        "image": "../src/assets/Logo/amazon_- logo-1000x302.png",
+        "image": "../src/assets/logo/amazon.png",
         "name": "Amazon",
         "jobCategories": [
             "Onsite",
