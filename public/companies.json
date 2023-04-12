@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../src/assets/logo/google.png",
+        "image": "https://i.postimg.cc/FRstGNRT/google.png",
         "name": "Google LLC",
         "jobCategories": [
             "Onsite",
@@ -18,28 +18,29 @@
         "educationalRequirements": "Bachelor's degree in Design or a related field from a reputable university. Master's degree preferred.",
         "experiences": "5+ years of experience in product design, with a focus on user experience and user-centered design principles."
     },
+    
     {
         "id": 2,
-        "image": "../src/assets/logo/netflix.png",
-        "name": "Netflix",
+        "image": "https://i.postimg.cc/L4WdBdMV/meta.png",
+        "name": "Meta",
         "jobCategories": [
             "Remote",
             "Full Time"
         ],
-        "jobTitle": "Senior Software Engineer",
-        "jobLocation": "Los Gatos, CA",
-        "salary": "150k - 200k",
-        "contactNumber": "+1-408-540-3700",
-        "officeEmail": "contact@netflix.com",
-        "officeAddress": "100 Winchester Cir, Los Gatos, CA 95032",
-        "jobDescription": "We are seeking a Senior Software Engineer to help build and maintain our world-class streaming platform.",
-        "jobResponsibility": "Collaborate with cross-functional teams to design, develop and deliver scalable software solutions. Write clean, efficient and maintainable code. Continuously improve code quality, performance and reliability.",
-        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field, or equivalent practical experience.",
-        "experiences": "7+ years of software engineering experience, with a focus on building large-scale distributed systems."
+        "jobTitle": "Technical Database Engineer",
+        "jobLocation": "Menlo Park, CA",
+        "salary": "120k - 170k",
+        "contactNumber": "+1-650-308-7300",
+        "officeEmail": "contact@fb.com",
+        "officeAddress": "1 Hacker Way, Menlo Park, CA 94025",
+        "jobDescription": "We are seeking a Technical Database Engineer to join our team and help build and maintain our data infrastructure.",
+        "jobResponsibility": "Design, build, and maintain scalable and reliable data infrastructure. Work with cross-functional teams to identify and solve data-related issues. Develop and maintain ETL processes, data pipelines, and data warehouse systems.",
+        "educationalRequirements": "Bachelor's degree in Computer Science, Engineering, or a related field from a reputable university.",
+        "experiences": "3+ years of experience as a database engineer or a related role. Experience with large-scale data infrastructure, data warehousing, ETL, and SQL."
     },
     {
         "id": 3,
-        "image": "../src/assets/logo/tesla.png",
+        "image": "https://i.postimg.cc/nrCyb2q7/tesla.png",
         "name": "Tesla",
         "jobCategories": [
             "Onsite",
@@ -58,7 +59,26 @@
     },
     {
         "id": 4,
-        "image": "../src/assets/logo/airbnb.png",
+        "image": "https://i.postimg.cc/j58pFmnt/amazon.png",
+        "name": "Amazon",
+        "jobCategories": [
+            "Onsite",
+            "Full Time"
+        ],
+        "jobTitle": "Senior Data Scientist",
+        "jobLocation": "Seattle, WA",
+        "salary": "120k - 200k",
+        "contactNumber": "+1-206-266-1000",
+        "officeEmail": "contact@amazon.com",
+        "officeAddress": "410 Terry Ave N, Seattle, WA 98109",
+        "jobDescription": "We are looking for a Senior Data Scientist to help us leverage data to make smarter business decisions.",
+        "jobResponsibility": "Work with cross-functional teams to identify and prioritize key business questions, design and execute experiments, build statistical and machine learning models, and communicate insights to stakeholders.",
+        "educationalRequirements": "Master's or PhD in a quantitative field such as Statistics, Mathematics, Computer Science, or related field, or equivalent practical experience.",
+        "experiences": "5+ years of experience in data science or related field, with a focus on statistical modeling, machine learning, and data analysis."
+    },
+    {
+        "id": 5,
+        "image": "https://i.postimg.cc/KjVcTRZX/airbnb.png",
         "name": "Airbnb",
         "jobCategories": [
             "Remote",
@@ -76,41 +96,22 @@
         "experiences": "5+ years of experience in iOS development, with a focus on Swift and Objective-C."
     },
     {
-        "id": 5,
-        "image": "../src/assets/logo/meta.png",
-        "name": "Meta",
+        "id": 6,
+        "image": "https://i.postimg.cc/MHNhWBYL/netflix.png",
+        "name": "Netflix",
         "jobCategories": [
             "Remote",
             "Full Time"
         ],
-        "jobTitle": "Technical Database Engineer",
-        "jobLocation": "Menlo Park, CA",
-        "salary": "120k - 170k",
-        "contactNumber": "+1-650-308-7300",
-        "officeEmail": "contact@fb.com",
-        "officeAddress": "1 Hacker Way, Menlo Park, CA 94025",
-        "jobDescription": "We are seeking a Technical Database Engineer to join our team and help build and maintain our data infrastructure.",
-        "jobResponsibility": "Design, build, and maintain scalable and reliable data infrastructure. Work with cross-functional teams to identify and solve data-related issues. Develop and maintain ETL processes, data pipelines, and data warehouse systems.",
-        "educationalRequirements": "Bachelor's degree in Computer Science, Engineering, or a related field from a reputable university.",
-        "experiences": "3+ years of experience as a database engineer or a related role. Experience with large-scale data infrastructure, data warehousing, ETL, and SQL."
-    },
-    {
-        "id": 6,
-        "image": "../src/assets/logo/amazon.png",
-        "name": "Amazon",
-        "jobCategories": [
-            "Onsite",
-            "Full Time"
-        ],
-        "jobTitle": "Senior Data Scientist",
-        "jobLocation": "Seattle, WA",
-        "salary": "120k - 200k",
-        "contactNumber": "+1-206-266-1000",
-        "officeEmail": "contact@amazon.com",
-        "officeAddress": "410 Terry Ave N, Seattle, WA 98109",
-        "jobDescription": "We are looking for a Senior Data Scientist to help us leverage data to make smarter business decisions.",
-        "jobResponsibility": "Work with cross-functional teams to identify and prioritize key business questions, design and execute experiments, build statistical and machine learning models, and communicate insights to stakeholders.",
-        "educationalRequirements": "Master's or PhD in a quantitative field such as Statistics, Mathematics, Computer Science, or related field, or equivalent practical experience.",
-        "experiences": "5+ years of experience in data science or related field, with a focus on statistical modeling, machine learning, and data analysis."
+        "jobTitle": "Senior Software Engineer",
+        "jobLocation": "Los Gatos, CA",
+        "salary": "150k - 200k",
+        "contactNumber": "+1-408-540-3700",
+        "officeEmail": "contact@netflix.com",
+        "officeAddress": "100 Winchester Cir, Los Gatos, CA 95032",
+        "jobDescription": "We are seeking a Senior Software Engineer to help build and maintain our world-class streaming platform.",
+        "jobResponsibility": "Collaborate with cross-functional teams to design, develop and deliver scalable software solutions. Write clean, efficient and maintainable code. Continuously improve code quality, performance and reliability.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or related field, or equivalent practical experience.",
+        "experiences": "7+ years of software engineering experience, with a focus on building large-scale distributed systems."
     }
 ]
