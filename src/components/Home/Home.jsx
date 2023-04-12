@@ -3,10 +3,15 @@ import "./Home.css";
 import React, { useContext, useEffect, useState } from "react";
 import JobList from "../JobList";
 import { JobCompanies } from "../../App";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigation } from "react-router-dom";
 import CompanyData from "../Companydata/CompanyData";
+import LoadingSpinner from "../LoadingSpinner";
 
 const Home = () => {
+  const navigation = useNavigation();
+  if (navigation.state === "loading") {
+    return <LoadingSpinner />;
+  }
   const companiesData = useContext(JobCompanies);
   const [showAll, setShowAll] = useState(false);
   const [companyData, setCompanyData] = useState(
@@ -16,7 +21,6 @@ const Home = () => {
   useEffect(() => {
     setCompanyData(showAll ? companiesData : companiesData.slice(0, 4));
   }, [showAll, companiesData]);
-
 
   const [jobList, setJobList] = useState([]);
   useEffect(() => {
