@@ -11,7 +11,7 @@ const Header = () => {
     <div className=" bg-blue-50">
       <div className="px-4 py-5 relative  pb-20 md:px-24 lg:px-8">
         <img
-          className="absolute w-64 right-0 top-0"
+          className="absolute lg:w-72 md:w-56 w-40 right-0 top-0"
           src="https://i.postimg.cc/sXk0Zrt6/vector1.png"
           alt=""
         />
